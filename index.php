@@ -84,10 +84,10 @@
       </paper-tabs>
 
     </core-toolbar>
-    <img id="bg" src="images/src/women-bg.jpg">
-    <img id="net" src="images/src/net.jpg">
-    <img id="arr" src="images/src/arr.jpg">
-    <img id="net1" src="images/src/net1.jpg">
+    <img id="bg" src="src/women-bg.jpg">
+    <img id="net" src="src/net.jpg">
+    <img id="arr" src="src/arr.jpg">
+    <img id="net1" src="src/net1.jpg">
 
     <div class="container" layout vertical center>
       <post-list show="all"></post-list>
