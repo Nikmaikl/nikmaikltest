@@ -77,7 +77,7 @@
     <core-toolbar>
 
       <paper-tabs id="tabs" selected="all" self-end>
-        <paper-tab name="all"><a href="Space_invaders/index.php" horizontal center-center layout>Главная</a></paper-tab>
+        <paper-tab name="all"><a href="Space_invaders/game.php" horizontal center-center layout>Главная</a></paper-tab>
         <paper-tab name="favorites"><a href="#net" horizontal center-center layout>Услуги</a></paper-tab>
         <paper-tab name="creating"><a href="#arr" horizontal center-center layout>Создание сайтов</a></paper-tab>
         <paper-tab name="contacts"><a href="#net1" horizontal center-center layout>Контакты</a></paper-tab>

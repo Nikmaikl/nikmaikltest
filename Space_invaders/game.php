@@ -1,3 +1,5 @@
+<!doctype html>
+
 <html>
 	<head>
 		<script src="game.js"></script>
