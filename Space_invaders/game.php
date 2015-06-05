@@ -15,7 +15,51 @@
   		<link rel="import" href="../components/paper-tabs/paper-tabs.html">
   		<link rel="import" href="post-list.html">
   		  <style>
+  html,body {
+    margin: 0;
+    background-color: white; /*E5E5E5*/
+    font-family: 'RobotoDraft', sans-serif;
+  }
+  body {
+    text-align: center
+  }
+  core-header-panel {
+    height: 100%;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch; 
+  }
+  core-toolbar {
+    background: #000; /*03a9f4*/
+    color: white;
+  }
+  #tabs {
+    width: 100%;
+    margin: 0px auto;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+	  text-transform: uppercase;
+  }
+  .container {
+    width: 80%;
+  }
 
+  a {
+    text-decoration: none;
+  }
+  a:link, a:visited {
+    color: white;
+  }
+
+  @media (min-width: 1581px) { /*481*/
+    #tabs {
+      width: 1200px; /*200*/
+    }
+    .container {
+      width: 1500px; /*400*/
+    }
+  }
   </style>
 	</head>
 	<body unresolved>
@@ -30,7 +74,7 @@
       </paper-tabs>
 
     </core-toolbar>
-      </core-header-panel>
+    </core-header-panel>
 		<canvas width="800" height="600" id="screen"></canvas>
 	</body>
 </html>
