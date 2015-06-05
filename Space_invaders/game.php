@@ -13,7 +13,7 @@
   		<link rel="import" href="../components/core-header-panel/core-header-panel.html">
   		<link rel="import" href="../components/core-toolbar/core-toolbar.html">
   		<link rel="import" href="../components/paper-tabs/paper-tabs.html">
-  		<link rel="import" href="post-list.html"><style>
+  		<link rel="import" href="post-list.html">
   		  <style>
   html,body {
     height: 100%;
@@ -64,9 +64,9 @@
   }
   </style>
 	</head>
-	<body>
+	<body unresolved>
 	  <core-header-panel>
-		<core-toolbar>
+	  <core-toolbar>
 
       <paper-tabs id="tabs" selected="all" self-end>
         <paper-tab name="all"><a href="Space_invaders/game.php" horizontal center-center layout>Главная</a></paper-tab>
