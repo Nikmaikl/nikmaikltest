@@ -16,6 +16,7 @@
   		<link rel="import" href="post-list.html">
   		  <style>
   html,body {
+    height: 100%;
     margin: 0;
     background-color: white; /*E5E5E5*/
     font-family: 'RobotoDraft', sans-serif;
@@ -74,7 +75,7 @@
       </paper-tabs>
 
     </core-toolbar>
-    </core-header-panel>
+      </core-header-panel>
 		<canvas width="800" height="600" id="screen"></canvas>
 	</body>
 </html>
