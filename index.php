@@ -48,7 +48,7 @@
   }
   .container {
     width: 80%;
-    
+    margin: 50px auto;
   }
 
   a {
